@@ -21,5 +21,5 @@
  ## PREVIEW
   <img src="https://media.giphy.com/media/CiUm4gY4SZ4LQRvKiP/giphy.gif" width="350px">
   
- #### <img src="https://lh3.googleusercontent.com/proxy/B-Qb_11B7J3Oc-Xt54XvVoaRpP0AT8SuTCpzVXn0ACpdvbDL9Z2GpsQ2nYk-aA-hS6fSo7PBL9SglQrgaekKxgFf185-gGfSb8ZTHtJwRwhrp1Spdy9KMBG2fN20q-Vk_lqoHkOXhdLblbr2Bvae2PG5KbIZz63_9kHT5OeXUo4f" width="24px" height="24px"> Linkedin: https://www.linkedin.com/in/imerik1/
+ #### <img src="https://nepa.com/wp-content/uploads/2017/09/linkedin-logo.png" width="24px" height="24px"> Linkedin: https://www.linkedin.com/in/imerik1/
  #### <img src="https://www.iconninja.com/files/593/806/539/play-youtube-icon.svg" width="24px" height="24px"> Ideia baseada no canal: https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog
