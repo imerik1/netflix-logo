@@ -3,13 +3,13 @@
 
 ## Foram utilizados apenas HTML e CSS
 
-### HTML
+### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="24px"> HTML
  - Foram utilizados uma div com classe logo
    - Dentro dela uma div com classe netflix e 3 spans vazios
  - E um h3 escrito Netflix
 
 
-### CSS
+### <img src="https://dmw.cuiaba.br/wp-content/uploads/2020/06/CSS.3.png" width="24px"> CSS
   - No body utilizei a animação para criar um degradê de inicia que para na última cor, também utilzei display flex para deixar os elementos centralizados
   - Na classe Netflix foi utilizado o :before
     - No :before:
