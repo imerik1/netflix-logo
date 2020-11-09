@@ -19,6 +19,6 @@
   
   
   ## PREVIEW
-  <img src="https://media.giphy.com/media/CiUm4gY4SZ4LQRvKiP/giphy.gif" width="150px">
+  <img src="https://media.giphy.com/media/CiUm4gY4SZ4LQRvKiP/giphy.gif" width="350px">
   
        - 
