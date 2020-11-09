@@ -29,5 +29,4 @@
  ## PREVIEW
   <img src="https://media.giphy.com/media/ALeCfdEwxgRiVBJ1S6/giphy.gif" width="350px">
   
- #### <img src="https://nepa.com/wp-content/uploads/2017/09/linkedin-logo.png" width="24px" height="24px"> Linkedin: https://www.linkedin.com/in/imerik1/
  #### <img src="https://www.iconninja.com/files/593/806/539/play-youtube-icon.svg" width="24px" height="24px"> Ideia baseada no canal: https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog
