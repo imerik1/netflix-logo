@@ -36,27 +36,6 @@ body {
     transform: scale(0.8);
 }
 
-.netflix:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 400%;
-    height: 100%;
-    background: transparent;
-    z-index: 3;
-    animation: animate 3.8s linear forwards;
-}
-
-@keyframes animate {
-    0% {
-        right: 0;
-    }
-    100% {
-        right: -400%;
-    }
-}
-
 .netflix:before {
     content: '';
     position: absolute;
@@ -64,11 +43,11 @@ body {
     bottom: -100px;
     width: 100%;
     height: 120px;
-    background-color: transparent;
     z-index: 2;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
     transform: scaleX(1.5);
+    animation: bg 3s forwards;
 }
 
 .netflix span {
@@ -76,7 +55,8 @@ body {
     top: 0;
     width: 120px;
     height: 100%;
-    background: white;
+    animation: luz 2s;
+    animation-delay: 2.1;
 }
 
 .netflix span:nth-child(1) {
