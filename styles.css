@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    animation: bg 3s forwards;
+}
+
+
+@keyframes bg {
+    0% {
+        background: rgb(20, 18, 18);
+    }
+    50% {
+        background: rgb(7, 7, 7);
+    }
+    100% {
+        background: rgb(0, 0, 0);
+    }
+}
+
+
+
+.netflix {
+    position: relative;
+    width: 360px;
+    height: 520px;
+    overflow: hidden;
+    transform: scale(0.8);
+}
+
+.netflix:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400%;
+    height: 100%;
+    background: transparent;
+    z-index: 3;
+    animation: animate 3.8s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        right: 0;
+    }
+    100% {
+        right: -400%;
+    }
+}
+
+.netflix:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    z-index: 2;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    transform: scaleX(1.5);
+}
+
+.netflix span {
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    background: white;
+}
+
+.netflix span:nth-child(1) {
+    height: 0px;
+    animation: second 2s ;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    background: #b00612;
+    left: 0;
+    z-index: 1;
+    transform-origin: top left;
+    transform: skewX(24.8deg);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+}
+
+.netflix span:nth-child(2) {
+    animation: first 2s;
+    background: #e50815;
+    left: 0;
+}
+
+.netflix span:nth-child(3) {
+    height: 0px;
+    animation: third 2s ;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    background: #b00612;
+    right: 0;
+}
+
+h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    visibility: hidden;
+    animation: text 1s forwards;
+    animation-delay: 4s;
+}
+
+@keyframes text {
+    60% {
+        visibility: visible;
+    }
+    80% {
+        visibility: visible;
+        transform: scale(1.1);
+    }
+    100% {
+        visibility: visible;
+        transform: scale(1);
+    }
+}
+
+
+@keyframes first {
+    0% {
+        height: 0px;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes second {
+    0% {
+        height: 0px;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes third {
+    0% {
+        height: 0px;
+    }
+    100% {
+        height: 100%;
+    }
+}
